@@ -4,7 +4,7 @@
 	"type": "module",
 	"main": "test.js",
 	"scripts": {
-		"test": "yarn node --experimental-vm-modules $(yarn bin jest) --verbose --maxWorkers=1"
+		"test": "yarn node --experimental-vm-modules node_modules/jest/bin/jest.js --verbose --maxWorkers=1"
 	},
 	"devDependencies": {
 		"fancylog": "^4.0.5",

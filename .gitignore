@@ -3,3 +3,4 @@ coverage
 .yarn/unplugged
 .yarn/cache
 .idea
+node_modules

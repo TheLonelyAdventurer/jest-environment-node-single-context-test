@@ -11,6 +11,6 @@ export default {
 	testMatch: [
 		"**\\test\.js"
 	],
-	testEnvironment: 'node',
+	testEnvironment: 'jest-environment-node-single-context',
 	verbose: true
 };
